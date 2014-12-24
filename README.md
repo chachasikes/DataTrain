@@ -4,9 +4,8 @@ A social dictionary for our nation's wealth of data.
 
 DataTrain is a data service that makes it easier and faster to understand and communicate the meaning, value and implications of open, public data. 
 
-
-URL (reserved) http://data-train.org
-Twitter (reserved) @TheDataTrain
+* URL (reserved) http://data-train.org
+* Twitter (reserved) @TheDataTrain
 
 ### Features
 * Add: Import dataset sample, get permalink to metadata about the dataset fields (elements and properties.)
@@ -37,16 +36,22 @@ For whever reasons, it's very rare to find descriptions of open data. This is pr
 
 Somewhere in that process, however, it seems that the important part of making the dataset very clear and understandable was perhaps not prioritized. It's also very likely that the dialogue between citizens and goverment have traditionally been carried out over email, phone and at conferences, by industry workers, and so it's not a budgetary priority to make the data comprehensible to the general public, who, typically have little power or influence over the day-to-day operations within government. However, as we see new applications that leverage open data to provide services and useful information for citizens and the public good, the capacity of the public to use datasets to make smarter decisions and investments in the future is shifting. Civic hackers and civic service companies are using this data and developing the capacity to work with more complex data. In order to innovate and continue to progress, we will need to lower the bar for understanding our valueable and complicated bureaucratic datasets.
 
-Fortunately, we have many many open datasets and data pratgorms to work with and support. We can easily create a service & community of translators that focus on making data much more comprehensible, and this can plug in easily to existing data platforms.
+Fortunately, we have many many open datasets and data platforms to work with and support. We can easily create a service & community of translators that focus on making data much more comprehensible, and this can plug in easily to existing data platforms.
 
 
 ### Examples & Stories
-While some data is pretty self-explanatory (such as latitude, longituge, name, email, url), there are many others that *almost* make sense, and yet if you ask any government worker, you can usually get a very long explanation of the historical and precise meanings of a datasets. For example, the White House Nominee's dataset on Socrata that has had almost 500K views. https://opendata.socrata.com/dataset/The-White-House-Nominations-Appointments/n5m4-mism and appears on White House.gov : http://www.whitehouse.gov/briefing-room/nominations-and-appointments
+While some data is pretty self-explanatory (such as latitude, longituge, name, email, url), there are many others that *almost* make sense, and yet if you ask any government worker, you can usually get a very long explanation of the historical and precise meanings of a datasets. For example, the White House Nominee's dataset on <a href=" https://opendata.socrata.com/dataset/The-White-House-Nominations-Appointments/n5m4-mism ">Socrata</a> that has over 500K views, and appears on <a href="http://www.whitehouse.gov/briefing-room/nominations-and-appointments">White House.gov.</a>
 
 #### On "Confirmations"
-There is a field called "Confirmed." I clicked the little (i) information button, which *does* have information for the "Re-nomination" field. The value of Confirmation is a date. But what is a Confirmation? Yes, anyone in government will cringe that most people don't know. In my case I lost any feeling of shame that I might have at ignorance when I was able to ask some city employees of Seattle what percentage of their population had any idea what they were doing, and they said that 10% of people had a clue at all. My guess about a "confirmation" is that maybe it is a swearing in session, and the day on which an appointee is official. But, after watching every episode of West Wing and The Good Wife, it could also be that the confirmation is the day that one of the government bodies agreed to an appointee, and the appointee would start working an some sort of transition day. I really don't know. I am going to have to ask some people who studied government in college. Fortunately for me, I know people like that. Remember, we stopped civics education in America. I've gone through my whole life hearing these words and knowing that they mean something 'governmenty' and also that it has no relevance to me. But in actuality, this is my country, and a government I would like to improve and I would like to help improve how we live, so actually I would really like to know what a confirmation is.
+In this dataset, there is a field called "Confirmed." I clicked the little (i) information button, which doesn't tell me anything. (However, the "Re-nomination" field does say "Indicates that the Nomination Date listed is for a re-nomination (after a previous nomination of the same individual to the same post was returned by the Senate at a recess or adjournment).")
 
-So I looked at Wikipedia, and got very confused. I also looked up "Confirmation" in the dictionary, and this was not helpful. Surely there is a dictionary of government terminology, perhaps in a textbook? We should link these textbook definitions to these public datasets if we can.
+The value of Confirmation is a checkbox, and there is an accompanying date. 
+
+*But what is a Confirmation?* Yes, anyone in government will cringe that most people don't know. In my case, I'm fine admitting my ignorance because I know I speak for most people. I lost any feeling of shame and instead adopted this as a personal mission when I was able to ask some city employees of Seattle what percentage of their population had any idea what they were doing, and they said that 10% of people had a clue at all. And then, later on, I realized that *most* government bureaucratic process *are* processes made by people, from our brains, and so somewhat arbitraty, and requiring training and education to understand.
+
+My guess about a "confirmation" is that maybe it is a swearing in session, and the day on which an appointee becomes "official." But, after watching every episode of West Wing and The Good Wife, it could *also* be that the confirmation is the day that one of the government bodies agreed to an appointee, and the appointee would start working an some sort of transition day. I really don't know. I am going to have to ask some people who studied government in college. Fortunately for me, I know people like that, but most of my life, it wasn't something I thought about. Remember, we stopped civics education in America. I've gone through my whole life hearing these words and knowing that they mean something 'governmenty' and also that it has no relevance to me. But in actuality, this is my country, and a government I would like to improve and I would like to help improve how we live, so actually I would really like to know what a confirmation is.
+
+So I looked at Wikipedia, and got very confused. I also looked up "Confirmation" in the dictionary, and this was also not helpful. Surely there is a dictionary of government terminology, perhaps in a textbook? We should link these textbook definitions to these public datasets if we can.
 
 
 #### On terminology
