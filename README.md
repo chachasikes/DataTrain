@@ -5,11 +5,11 @@ A social dictionary for our nation's wealth of data.
 DataTrain is a data service that makes it easier and faster to understand and communicate the meaning, value and implications of open, public data. 
 
 
-URL: http://data-train.org
-@TheDataTrain
+URL (reserved) http://data-train.org
+Twitter (reserved) @TheDataTrain
 
 ### Features
-* Add: Import dataset sample, get permalink to metadata about the dataset.
+* Add: Import dataset sample, get permalink to metadata about the dataset fields (elements and properties.)
 * Collaboratively edit information about for fields and values in data sets based on user-tested questions
 * Search for field abbreviations
 * Share your learning and expertise and help raise the bar of what we can do as a nation.
@@ -20,12 +20,13 @@ In government, words matter. Specific words carry deep meaning about how and why
 
 A growing open data movement is making more of the complicated government data available to encourage innovation, efficiency and better collaborations among agencies, the private sector, organizations and civilians.
 
-A common problem for anyone using a government dataset is to develop a functional understanding of the fields and values of a given dataset, be it data that is publicly downloaded through a web-based service or open data portal, or some FOIA's information that was extracted from PDFs. 
+A common problem for anyone using a government dataset is to develop a functional understanding of the fields and values of a given dataset, be it data that is publicly downloaded through a web-based service or open data portal, or some FOIA's information that was extracted from PDFs. This is similar to any training a government worker would do in the course of their work, as they become oriented to the various processes that are part of the every day functioning of government.
 
-What more, data researchers conduct deep research and even technical phone calls with government agencies to make sense of the specific meanings and implications of certain values.
+To understand the data, researchers, journalists, industry professionals and others conduct deep research and technical phone calls with government agencies to make sense of the specific meanings and implications of certain values. Sometimes this is simple, somethings this takes many meetings and nuanced interviews.
 
-The problem is that this work must be repeated by anyone working with a similar dataset, and they may be likely to have similar questions, or make similar mistakes. In some cases, it can take months to understand the real government processes taking place behind the data. This could be permit data, information about businesses, regulated data and other forms of data that were put in place to help improve our quality of life and help us function as a civilization.
+A big problem is that this work must be repeated by anyone working with a similar dataset, and they may be likely to have similar questions, or make similar mistakes. In some cases, it can take months to understand the real government processes taking place behind the data. This could be permit data, information about businesses, regulated data and other forms of data that were put in place to help improve our quality of life and help us function as a civilization.
 
+The questions we ask are not only useful to us. The questions we ask of government, the small requests we make to reformat the data to be more useful to our needs. Usually the data a government holds is housed in a service provided by a government contractor, and most government contractors would *like* to make their product more valuable to governments. The explanations we help create can help train new government staff, or help with inter-agency communication.
 
 ### Previous solutions
 In ideal circumstances, a data provider shares a 'metadata dictionary' with a dataset. This can sometimes be found in GIS shapefiles, and sometimes there is a website for an agency that links to a document that explains the process. Sometimes you can find the original form where the data was collected, and figure out the meaning in that way. The more documented datasets tend to be the more highly used datasets, such as weather or the simpler tables like zipcodes.
