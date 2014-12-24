@@ -40,7 +40,7 @@ Fortunately, we have many many open datasets and data platforms to work with and
 
 
 ### Examples & Stories
-While some data is pretty self-explanatory (such as latitude, longituge, name, email, url), there are many others that *almost* make sense, and yet if you ask any government worker, you can usually get a very long explanation of the historical and precise meanings of a datasets. For example, the White House Nominee's dataset on <a href=" https://opendata.socrata.com/dataset/The-White-House-Nominations-Appointments/n5m4-mism">Socrata</a> that has over 500K views, and appears on <a href="http://www.whitehouse.gov/briefing-room/nominations-and-appointments">White House.gov.</a>
+While some data is pretty self-explanatory (such as latitude, longituge, name, email, url), there are many others that *almost* make sense, and yet if you ask any government worker, you can usually get a very long explanation of the historical and precise meanings of a datasets. For example, the White House Nominee's dataset on <a href="https://opendata.socrata.com/dataset/The-White-House-Nominations-Appointments/n5m4-mism">Socrata</a> that has over 500K views, and appears on <a href="http://www.whitehouse.gov/briefing-room/nominations-and-appointments">White House.gov.</a>
 
 #### On "Confirmations"
 In this dataset, there is a field called "Confirmed." I clicked the little (i) information button, which doesn't tell me anything. (However, the "Re-nomination" field does say "Indicates that the Nomination Date listed is for a re-nomination (after a previous nomination of the same individual to the same post was returned by the Senate at a recess or adjournment).")
