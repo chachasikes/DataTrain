@@ -88,9 +88,9 @@ In January and February 2015 we will have some hack days to build out the protot
 
 Hack days and nights will happen at some Brigade nights, at Code for America, and on google hangouts.
 
-
 #### Librarians and Content-writers
 Do you love plain-language writing? Do you get excited about the difference between 4th grade reading level and 10th grade? Bring your public understanding of everything skills to look at some tricky NSF project data and help translate it for the public.
+
 
 #### Design & User Research
 We are prototyping the questions we can ask of the elements of a dataset, based on various types of information. If you are interested in doing some phone calls and taking notes, let us know.
@@ -99,12 +99,30 @@ We are prototyping the questions we can ask of the elements of a dataset, based 
 #### Subject matter experts
 Do you know a lot about a certain area of government and would be willing to be interviewed. You probably already have a good idea of the ways that people using data get confused. We want to help you get word out so that citizens understand and represent your data accurately. 
 
+#### Team, Partners & Advisors
+If you are interested and want to get this off the ground in 2015, get in touch! Otherwise, I will be reaching out and then updating this list. Will be reaching out to agencies, data platform providers. city governments & departments, information scientists, Code for America brigades and civic hackers & companies. This should be a pretty simple service to get going and be able to add value to existing data sets.
 
-## Contact
+
+## ROADMAP
+Timeline & Next Steps
+12/04/2014 - project conception (after several years of observation)
+12/24/2014 - publish project description
+
+* Publish technical road map
+* Publish schema
+* Publish draft of question sets
+* MVP & Research: Jan - March: reach out to possible projects and document datasets according to working draft of metadata schema. Use question sets & publish results as JSON in github.
+* Build design mockup of app interface
+* Mock up app
+* Document spec of app (currently is in scribble notes on a pieces of paper)
+* Raise some cash to support active development and outreach efforts in 2015 and get this going as a public data utility.
+* Prototype ajax widget for integration with data platforms
+
+
+### Conductor
 Chach Sikes @chachasikes, chachasikes@gmail.com, http://chachaville.com
 
 Chach is an open data advocate and web engineer/designer/facilitator who is interested in increasing comprehension around technical and specialized information, especially after working in science museums for a long time, where writers and researchers figured out how to democratize understanding of science.
 
 She currently works at CivicInsight publishing building development and code enforcement data, & was a Code for America Alum, '11 where she co-founded the Iconathon, a design event that encourages citizens and designers to work with subject matter experts to create visual symbols for civic concepts.
-
 
