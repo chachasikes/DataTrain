@@ -113,6 +113,7 @@ If you are interested and want to get this off the ground in 2015, get in touch!
 ### Timeline & Next Steps
 
 12/04/2014 - project conception (after several years of observation)
+
 12/24/2014 - publish project description
 
 * Publish technical road map
