@@ -103,7 +103,7 @@ We are prototyping the questions we can ask of the elements of a dataset, based 
 
 
 #### Subject matter experts
-Do you know a lot about a certain area of government and would be willing to be interviewed. You probably already have a good idea of the ways that people using data get confused. We want to help you get word out so that citizens understand and represent your data accurately. 
+Do you know a lot about a certain area of government and would be willing to be interviewed? You probably already have a good idea of the ways that people using data get confused. We want to help you get word out so that citizens understand and represent your data accurately. 
 
 #### Team, Partners & Advisors
 If you are interested and want to get this off the ground in 2015, get in touch! Otherwise, I will be reaching out and then updating this list. Will be reaching out to agencies, data platform providers. city governments & departments, information scientists, Code for America brigades and civic hackers & companies. This should be a pretty simple service to get going and be able to add value to existing data sets.
