@@ -125,7 +125,7 @@ Timeline & Next Steps
 * Prototype ajax widget for integration with data platforms
 
 
-### Conductor
+### Train Conductor
 Chach Sikes @chachasikes, chachasikes@gmail.com, http://chachaville.com
 
 Chach is an open data advocate and web engineer/designer/facilitator who is interested in increasing comprehension around technical and specialized information, especially after working in science museums for a long time, where writers and researchers figured out how to democratize understanding of science.
