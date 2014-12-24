@@ -125,6 +125,8 @@ If you are interested and want to get this off the ground in 2015, get in touch!
 * Document spec of app (currently is in scribble notes on a pieces of paper)
 * Raise some cash to support active development and outreach efforts in 2015 and get this going as a public data utility.
 * Prototype ajax widget for integration with data platforms
+* research, measure, test, more partners, grow if MVP seems like it is working and beneficial.
+* change culture around talking about data... make data descriptions and plain language communication more commonplace & easier.
 
 
 ### Train Conductor
