@@ -12,7 +12,7 @@ DataTrain is a data service that makes it easier and faster to understand and co
 * Collaboratively edit information about for fields and values in data sets based on user-tested questions
 * Search for field abbreviations and names. Get descriptions for similar fields from other datasets, if available.
 * Share your research notes and expertise and help raise the bar of how we understand the work of our governments.
-* Export data in JSON format for incorporatin with APIs
+* Export data in JSON format for incorporation in open data APIs
 * Make API requests for field metadata (labels, descriptions, privacy suggestions), for storing with hosted data.
 
 ### The Problem
