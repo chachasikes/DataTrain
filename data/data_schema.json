@@ -5,41 +5,41 @@ Data Schema describing meta data about individual dataset fields and attributes 
 **/ 
 {
   "dataset": {
-    "id": "", // Unique ID for this dataset.
-    "name": "Name of Dataset.", // String. Likely length from 1-50 words.
-    "dataUrl": "URL path to dataset", // String, URL path.
-    "sourceName": "", // String, name of organization.
-    "sourceUrl": "", // URL for organization or department that owns the data.
-    "type": ["type1", "type2"], // Array of tags for type.
-    "location": [[123,-43],[12,-12]], // Locations array - can be lat/lon or boundary. (WKT? @TODO get sample format & correct the syntax.
-    "tags": ["type1", "type2"], // Descriptive tags for the dataset. Could be pulled from data.gov or similar.
+    "id": "", /** Unique ID for this dataset. **/
+    "name": "Name of Dataset.", /** String. Likely length from 1-50 words. **/
+    "dataUrl": "URL path to dataset", /** String, URL path. **/
+    "sourceName": "", /** String, name of organization. **/
+    "sourceUrl": "", /** URL for organization or department that owns the data. **/
+    "type": ["type1", "type2"], /** Array of tags for type. **/
+    "location": [[123,-43],[12,-12]], /** Locations array - can be lat/lon or boundary. (WKT? @TODO get sample format & correct the syntax. **/
+    "tags": ["type1", "type2"], /** Descriptive tags for the dataset. Could be pulled from data.gov or similar. **/
     "description": "", 
     "comments": [{"comment": ""}], //Array of hashes about comments containing at least the attibute "comment".
     "dateAdded": "", //Date (format TBD)
     "dateUpdated": "", //Date (format TBD)
-    "published": true, // Boolean, where or not dataset metadata is published.
-    "contibutors": [{"user_id": 123, "display_name": "First LastName", "roles": ["admin", "edit", "comment", "read-only"]}], // Array of user hashes with permissions.
-    "revision": "", // unique revision name for this dataset. 
+    "published": true, /** Boolean, where or not dataset metadata is published. **/
+    "contibutors": [{"user_id": 123, "display_name": "First LastName", "roles": ["admin", "edit", "comment", "read-only"]}], /** Array of user hashes with permissions. **/
+    "revision": "", /** unique revision name for this dataset.  **/
   },
-  // Loosely based off Socrata's format. @TODO look at some other formats for comparison.
+  /** Loosely based off Socrata's format. @TODO look at some other formats for comparison. **/
   "fields": [ 
     {
-       "id" : 123, // Unique id for field.
-       "permalink": "http://___", // Trackback link.
-       "name" : "Intake Type", // Raw, untranslated display name for field.
-       "fieldName" : "intake_type", // Raw, untranslated machine readable name of field.
-       "dataTypeName" : "text", // Data format of field (text, checkbox, number etc.)
-       "description": "", // Raw, untranslated original desciption for this field.
+       "id" : 123, /** Unique id for field. **/
+       "permalink": "http://___", /** Trackback link. **/
+       "name" : "Intake Type", /** Raw, untranslated display name for field. **/
+       "fieldName" : "intake_type", /** Raw, untranslated machine readable name of field. **/
+       "dataTypeName" : "text", /** Data format of field (text, checkbox, number etc.) **/
+       "description": "", /** Raw, untranslated original desciption for this field. **/
        "comments": [{"comment": ""}], //Array of hashes about comments containing at least the attibute "comment".
-       "position" : 4, // Order in dataset.
+       "position" : 4, /** Order in dataset. **/
        "metrics": {
-        "views": 123, // Int,
-        "edits": 213, // Int,
+        "views": 123, /** Int, **/
+        "edits": 213, /** Int, **/
        },
-       "renderTypeName" : "text", // How text should be displayed.
-       // "tableColumnId" : 16459762, // Socrata example: Not sure we need this.
-       "width" : 232, // Dimensions of field.
-       "cachedContents" : { // Hash of information about values in this column. (example if imported from Socrata)
+       "renderTypeName" : "text", /** How text should be displayed. **/
+       /** "tableColumnId" : 16459762, /** Socrata example: Not sure we need this. **/
+       "width" : 232, /** Dimensions of field. **/
+       "cachedContents" : { /** Hash of information about values in this column. (example if imported from Socrata) **/
          "non_null" : 19651,
          "null" : 0,
          "smallest" : "Euthanasia Request",
@@ -59,17 +59,17 @@ Data Schema describing meta data about individual dataset fields and attributes 
          } ],
         
 
-        // distinct values with count (maybe up to 100-200 based on a config setting)
+          /** distinct values with count (maybe up to 100-200 based on a config setting) **/
          "distinct": [ {
-          // @TODO describe.
+          /** @TODO describe. **/
           }]
     },
       /** 
         Unique information for DataTrain purposes:
       */
-      // Provide string translations for the field name.
-      // @TODO Look up data dictionaries and open data localization efforts.
-      // Format based on english to start. (default)
+      /** Provide string translations for the field name. **/
+      /** @TODO Look up data dictionaries and open data localization efforts. **/
+      /** Format based on english to start. (default) **/
   "localization": {
         "en" : [
           {
@@ -81,9 +81,9 @@ Data Schema describing meta data about individual dataset fields and attributes 
           "label_long": "",
           "description" : [{"content": "", "author": {}, "date_added": "", "date_updated": "", "tags": [""], "published": true, "promoted": 10}],
           "definition" : [{"content": "", "author": {}, "date_added": "", "date_updated": "", "tags": [""], "published": true, "promoted": 10}],
-          "icon": "http://", // Url to visual symbol if applicable.
+          "icon": "http://", /** Url to visual symbol if applicable. **/
           "reference": [{ "content": "", "url": "http://___", "author": {}}],
-          "contact": [{"content":"", "formatted": {"name": "", "email":"", "phone": ""}}], // If need to call a department... who to contact.
+          "contact": [{"content":"", "formatted": {"name": "", "email":"", "phone": ""}}], /** If need to call a department... who to contact. **/
           "supplemental" : [
             {
               "question": {"content": "", "author": {}, "date_added": "", "date_updated": "", "tags": [""], "published": true, "promoted": 10},
@@ -102,9 +102,9 @@ Data Schema describing meta data about individual dataset fields and attributes 
           "label_long": "",
           "description" : [{"content": "", "author": {}, "date_added": "", "date_updated": "", "tags": [""], "published": true, "promoted": 10}],
           "definition" : [{"content": "", "author": {}, "date_added": "", "date_updated": "", "tags": [""], "published": true, "promoted": 10}],
-          "icon": "http://", // Url to visual symbol if applicable.
+          "icon": "http://", /** Url to visual symbol if applicable. **/
           "reference": [{ "content": "", "url": "http://___", "author": {}}],
-          "contact": [{"content":"", "formatted": {"name": "", "email":"", "phone": ""}}], // If need to call a department... who to contact.
+          "contact": [{"content":"", "formatted": {"name": "", "email":"", "phone": ""}}], /** If need to call a department... who to contact. **/
           "supplemental" : [
             {
               "question": {"content": "", "author": {}, "date_added": "", "date_updated": "", "tags": [""], "published": true, "promoted": 10},
