@@ -9,7 +9,7 @@ DataTrain is a data service that makes it easier and faster to understand and co
 
 ### Features
 * Add: Import dataset sample, get permalink to metadata about the dataset fields (elements and properties.)
-* Collaboratively edit information about for fields and values in data sets based on user-tested questions
+* Collaboratively edit information about for fields and values in datasets based on vetted "question sets" appropriate to that type of information.
 * Search for field abbreviations and names. Get descriptions for similar fields from other datasets, if available.
 * Share your research notes and expertise and help raise the bar of how we understand the work of our governments.
 * Export data in JSON format for incorporation in open data APIs
