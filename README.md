@@ -1,6 +1,6 @@
 DataTrain
 =========
-A social dictionary for our nation's wealth of data.
+A social dictionary for our nation's wealth of public data.
 
 DataTrain is a data service that makes it easier and faster to understand and communicate the meaning, value and implications of open, public data. 
 
