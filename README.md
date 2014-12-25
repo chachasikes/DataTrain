@@ -78,7 +78,7 @@ There are many other words that are 'red flags', because of history and legality
 
 
 #### On plain-language communication.
-<a href="http://gov.uk">Gov.UK</a>  has a great <a href="https://gds.blog.gov.uk/2012/02/07/writing-simply/">document</a> and effort to encourage government workers to use plain-language wherever possible, and this also means choosing the "slightly less accurate" in favor of helping more people understand. Service providers often must translate "gov-speak" into plain-language to make it possible to provide better services. We have a new movment of civic designers who care about the quality and comprehensibility of content. We need a way to share our best "labels" for certain types of information.
+<a href="http://gov.uk">Gov.UK</a>  has a great <a href="https://www.gov.uk/guidance/content-design/writing-for-gov-uk#plain-english">document</a> and effort to encourage government workers to use plain-language wherever possible, and this also means choosing the "slightly less accurate" in favor of helping more people understand. Service providers often must translate "gov-speak" into plain-language to make it possible to provide better services. We have a new movment of civic designers who care about the quality and comprehensibility of content. We need a way to share our best "labels" for certain types of information.
 
 We have a lot of potential to understand better what we are actually *doing* to make our cities and lives better.
 
