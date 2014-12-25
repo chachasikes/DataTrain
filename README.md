@@ -105,10 +105,8 @@ Hack days and nights will happen at some Brigade nights, at Code for America, an
 #### Librarians and Content-writers
 Do you love plain-language writing? Do you get excited about the difference between 4th grade reading level and 10th grade? Bring your public understanding of everything skills to look at some tricky NSF project data and help translate it for the public.
 
-
 #### Design & User Research
 We are prototyping the questions we can ask of the elements of a dataset, based on various types of information. If you are interested in doing some phone calls and taking notes, let us know.
-
 
 #### Subject matter experts
 Do you know a lot about a certain area of government and would be willing to be interviewed? You probably already have a good idea of the ways that people using data get confused. We want to help you get word out so that citizens understand and represent your data accurately. 
@@ -116,26 +114,24 @@ Do you know a lot about a certain area of government and would be willing to be 
 #### Team, Partners & Advisors
 If you are interested and want to get this off the ground in 2015, get in touch! Otherwise, I will be reaching out and then updating this list. Will be reaching out to agencies, data platform providers. city governments & departments, information scientists, Code for America brigades and civic hackers & companies. This should be a pretty simple service to get going and be able to add value to existing data sets.
 
-
-## ROADMAP
-### Timeline & Next Steps
-
-12/04/2014 - project conception (after several years of observation)
-
-12/24/2014 - publish project description
-
-* Publish technical road map
-* Publish schema
-* Publish draft of question sets
-* MVP & Research: Jan - March: reach out to possible projects and document datasets according to working draft of metadata schema. Use question sets & publish results as JSON in github.
-* Build design mockup of app interface
-* Mock up app
-* Document spec of app (currently is in scribble notes on a pieces of paper)
-* Raise some cash to support active development and outreach efforts in 2015 and get this going as a public data utility.
-* Prototype ajax widget for integration with data platforms
-* research, measure, test, more partners, grow if MVP seems like it is working and beneficial.
-* change culture around talking about data... make data descriptions and plain language communication more commonplace & easier.
-
+##### See also
+* ROADMAP.md - Document describing the growth of the project.
+* _specs/APP.md - Document describing the application.
+* _specs/API.md - Document describing the API.
+* _specs/DATA.md - Document describing the data.
+* _specs/FORMATS.md - Document describing the exported data formats.
+* _specs/INTERACTION.md - Document describing the interaction.
+* _specs/INTERFACE.md - Document describing the interface.
+* _specs/QUESTIONS.md - Document about the questions to ask of different datasets, fields and values.
+* _design/ - Folder for design assets. Will also eventually use Dropbox.
+* _content/ - Folder for written copy for the application & communications materials.
+* data/data_schema.json - Document showing the schema format for metadata records for each dataset.
+* data/examples/example_data_1.json - Sample dataset in schema format.
+* data/examples/example_data_2.json - Sample dataset in schema format.
+* data/examples/example_data_3.json - Sample dataset in schema format.
+* data/source/ - Folder for original CSV datasets
+* data/db - Folder for flat file JSON document object records of metadata for each dataset.
+* app - Application
 
 ### Train Conductor
 Chach Sikes @chachasikes, chachasikes@gmail.com, http://chachaville.com
