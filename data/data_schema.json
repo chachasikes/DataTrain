@@ -63,35 +63,35 @@ Data Schema describing meta data about individual dataset fields and attributes 
          "distinct": [ {
           // @TODO describe.
           }]
-       },
-
+    },
       /** 
         Unique information for DataTrain purposes:
       */
       // Provide string translations for the field name.
       // @TODO Look up data dictionaries and open data localization efforts.
       // Format based on english to start. (default)
-      "localization": {
-        "en" :{
-          "field_id": 123, // Trackback id for editing. TBD. 
+  "localization": {
+        "en" : [
+          {
+          "field_id": 123,
+          "type": "fieldName",
           "name": "Intake Type",
-          "abbreviation": [{"name": "","author": {}}],
+          "abbreviation": [{"content": "","author": {}}],
           "label_short": "Intake Type",
-          "icon": "http://", // Url to visual symbol if applicable.
           "label_long": "",
           "description" : [{"content": "", "author": {}, "date_added": "", "date_updated": "", "tags": [""], "published": true, "promoted": 10}],
           "definition" : [{"content": "", "author": {}, "date_added": "", "date_updated": "", "tags": [""], "published": true, "promoted": 10}],
-          "reference": [{"url": "http://___", "name": "Link name","author": {}}],
-          "contact": [{"name":"", "raw": ""}], // If need to call a department... who to contact.
+          "icon": "http://", // Url to visual symbol if applicable.
+          "reference": [{ "content": "", "url": "http://___", "author": {}}],
+          "contact": [{"content":"", "formatted": {"name": "", "email":"", "phone": ""}}], // If need to call a department... who to contact.
           "supplemental" : [
             {
               "question": {"content": "", "author": {}, "date_added": "", "date_updated": "", "tags": [""], "published": true, "promoted": 10},
               "response": [{"content": "", "author": {}, "date_added": "", "date_updated": "", "tags": [""], "published": true, "promoted": 10}],
             },
-          ]
-        }
+          ],
         },
 
-    }
-  ],
+      ],
+    },
 }
