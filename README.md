@@ -54,7 +54,9 @@ My guess about a "confirmation" is that maybe it is a swearing in session, and t
 
 So I looked at Wikipedia, and got very confused. I also looked up "Confirmation" in the dictionary, and this was also not helpful. Surely there is a dictionary of government terminology, perhaps in a textbook? We should link these textbook definitions to these public datasets if we can.
 
-Eventually, I read that "Confirmation" has something to do with <a href="http://en.wikipedia.org/wiki/Advice_and_consent">"Advice and Consent"</a> which leads down another (interesting) legistlative rabbithole, but "Confirmation" has something to do with the President making a recommendation for <a href="http://en.wikipedia.org/wiki/List_of_positions_filled_by_presidential_appointment_with_Senate_confirmation">various roles</a> and then the Senate confirming it. 
+Eventually, I read that 
+* "Confirmation" has something to do with <a href="http://en.wikipedia.org/wiki/Advice_and_consent">"Advice and Consent"</a> which leads down another (interesting) legistlative rabbithole, 
+* it has something to do with the President making a recommendation for <a href="http://en.wikipedia.org/wiki/List_of_positions_filled_by_presidential_appointment_with_Senate_confirmation">various roles</a> and then the Senate confirming it. 
 
 It's on us to decide how much we want to invest in a making this kind of information comprehensible to most Americans. Does it matter if we all understand what a Confirmation is? 
 
