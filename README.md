@@ -20,7 +20,7 @@ In government, words matter. Specific words carry deep meaning about how and why
 
 A growing open data movement is making more of the complicated government data available to encourage innovation, efficiency and better collaborations among agencies, the private sector, organizations and civilians.
 
-A common problem for anyone using a government dataset is to develop a functional understanding of the fields and values of a given dataset, be it data that is publicly downloaded through a web-based service or open data portal, or some FOIA's information that was extracted from PDFs. This is similar to any training a government worker would do in the course of their work, as they become oriented to the various processes that are part of the every day functioning of government.
+A common problem for anyone using a government dataset is to develop a functional understanding of the fields and values of a given dataset. This can be data that is publicly downloaded through a web-based service or open data portal, or some FOIA's information that was extracted from PDFs. This is similar to any training a government worker would do in the course of their work, as they become oriented to the various processes that are part of the every day functioning of government.
 
 To understand the data, researchers, journalists, industry professionals and others conduct deep research and technical phone calls with government agencies to make sense of the specific meanings and implications of certain values. Sometimes this is simple, somethings this takes many meetings and nuanced interviews.
 
