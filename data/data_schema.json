@@ -92,6 +92,27 @@ Data Schema describing meta data about individual dataset fields and attributes 
           ],
         },
 
+        {
+          "field_value_id": 123,
+          "fieldName": "Intake Type",
+          "type": "fieldValue",
+          "name": "Euthanasia Request",
+          "abbreviation": [{"content": "","author": {}}],
+          "label_short": "Euthanasia Request",
+          "label_long": "",
+          "description" : [{"content": "", "author": {}, "date_added": "", "date_updated": "", "tags": [""], "published": true, "promoted": 10}],
+          "definition" : [{"content": "", "author": {}, "date_added": "", "date_updated": "", "tags": [""], "published": true, "promoted": 10}],
+          "icon": "http://", // Url to visual symbol if applicable.
+          "reference": [{ "content": "", "url": "http://___", "author": {}}],
+          "contact": [{"content":"", "formatted": {"name": "", "email":"", "phone": ""}}], // If need to call a department... who to contact.
+          "supplemental" : [
+            {
+              "question": {"content": "", "author": {}, "date_added": "", "date_updated": "", "tags": [""], "published": true, "promoted": 10},
+              "response": [{"content": "", "author": {}, "date_added": "", "date_updated": "", "tags": [""], "published": true, "promoted": 10}],
+            },
+          ],
+        },
+
       ],
     },
 }
