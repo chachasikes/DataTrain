@@ -10,9 +10,10 @@ DataTrain is a data service that makes it easier and faster to understand and co
 ### Features
 * Add: Import dataset sample, get permalink to metadata about the dataset fields (elements and properties.)
 * Collaboratively edit information about for fields and values in data sets based on user-tested questions
-* Search for field abbreviations
-* Share your learning and expertise and help raise the bar of what we can do as a nation.
-* Export or make API requests for plain-language labels, descriptions, glossaries and metadata files for apps, APIs and data platforms.
+* Search for field abbreviations and names. Get descriptions for similar fields from other datasets, if available.
+* Share your research notes and expertise and help raise the bar of how we understand the work of our governments.
+* Export data in JSON format for incorporatin with APIs
+* Make API requests for field metadata (labels, descriptions, privacy suggestions), for storing with hosted data.
 
 ### The Problem
 In government, words matter. Specific words carry deep meaning about how and why we do things the way we do. For better or worse.
