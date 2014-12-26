@@ -1,3 +1,7 @@
 # Projects
 
-Since this is an open source project for a public utility, some sub-projects will be defined, which interested parties can work on & contribute back.
+* Define Data Dictionary Spec
+Research and Recommend lightweight formats for sharing data dictionary information.
+
+* Existing Data Dictionaries
+Researching existing formats of Data Dictionaries and data dictionary catalogs.

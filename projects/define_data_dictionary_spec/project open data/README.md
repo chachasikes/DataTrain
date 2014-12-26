@@ -2,6 +2,13 @@
 https://project-open-data.cio.gov/
 
 
+https://project-open-data.cio.gov/schema/
+
+Expanded Field: 
+dataDictionary  Data Dictionary URL to the data dictionary for the dataset or API. Note that documentation other than a data dictionary can be referenced using Related Documents as shown in the expanded fields.
+
+
+
 # Recommendations for Project Open Data
 https://project-open-data.cio.gov/schema/
 
