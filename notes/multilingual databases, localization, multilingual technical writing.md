@@ -1,3 +1,5 @@
+
+
 Objective:
 * Create clearly articulated data schema for the application and data storage.
 * Document fields, especially the unique ones.
@@ -25,6 +27,15 @@ http://stackoverflow.com/questions/7528733/what-is-an-efficient-mongodb-schema-d
  }
 }
 
+* http://en.wikipedia.org/wiki/Language_localisation
+
+
+# Writing technically
+* http://www.writingassist.com/resources/articles/think-globally-write-locally/
+* "controlled english" : http://www.slideshare.net/Enlaso/localization-technical-writing-and-translation
+* framemaker
+* translator workbench
+* "global readiness" writing: http://techwhirl.com/writing-global-readiness-technical-writers-need-know/
 
 
 Questions:

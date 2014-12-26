@@ -1,0 +1,1 @@
+These notes will eventually become some blog posts or articles, as well as guidelines for this project.
