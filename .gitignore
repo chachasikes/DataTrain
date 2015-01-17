@@ -4,3 +4,5 @@ projects/existing_data_dictionaries/NYC\ -\ Pluto\ Data\ Dictionary/source_files
 datatools/*.csv
 datatools/*/*.csv
 datatools/*/*/*.csv
+datatools/*/intput/*.*
+datatools/*/output/*.*
