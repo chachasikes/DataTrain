@@ -1,5 +1,6 @@
 #!/usr/bin/python
 import sys, os
+import random
 
 def file_len(fname):
     with open(fname) as f:
@@ -7,7 +8,7 @@ def file_len(fname):
             pass
     return i + 1
 
-def process_file(file_path, limit):
+def process_file(file_path, limit, is_random):
     # Total number lines
     
 
@@ -19,10 +20,23 @@ def process_file(file_path, limit):
 
     count = 0
     text = ''
-    for line in lines:
-        if count < int(limit):
-            text = text + line
-            count = count + 1
+    print bool(is_random)
+    if bool(is_random):
+        sample = random.sample(lines, int(limit))
+        for line in sample:
+                if count < int(limit):
+                    text = text + line
+                    count = count + 1
+
+
+
+    else:
+        for line in lines:
+            if count < int(limit):
+                text = text + line
+                count = count + 1
+
+
 
     print "Saved new file with " + str(limit) + " rows at: "
     f.close()
@@ -57,8 +71,14 @@ def main():
                 limit = str(sys.argv[3])
             else:
                 limit = 100
-            
-            csv_sample = process_file(input_path,limit)
+
+
+            if len(sys.argv) > 4:
+                random = str(sys.argv[4])
+            else:
+                random = false
+
+            csv_sample = process_file(input_path,limit,random)
             save_sample(csv_sample, output_file_name)
 
         else:
