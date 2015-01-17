@@ -25,7 +25,10 @@ def process_file(file_path, limit, is_random):
         sample = random.sample(lines, int(limit))
         for line in sample:
                 if count < int(limit):
-                    text = text + line
+                    if count == 0:
+                        text = lines[0]
+                    else:
+                        text = text + line
                     count = count + 1
 
 
