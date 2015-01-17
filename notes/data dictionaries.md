@@ -26,7 +26,6 @@ Not only is the data dictionary central to every Oracle database, it is an impor
 "
 
 #### MODERNIZATION ideas 
-Chach: 
 * change to read-write & comment (social, collaboratively edited, stack overflow like)
 * sample values
 * distinct values with counts
