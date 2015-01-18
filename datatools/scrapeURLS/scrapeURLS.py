@@ -190,11 +190,12 @@ def getFileNameDetails(text,selector):
     result_name = soup.select(name_selector)
 
     for r in result_name:
-      div = r.find_all(last_selector)
       
-      for d in div:
-        value = str(d.string).strip()
+      div = r.find_all(last_selector)
 
+      for d in div:
+        if d != []:
+          value = str(d.string).strip()
     return value + ","
 
 
@@ -214,8 +215,6 @@ def getFileDescriptionDetails(text,selector):
       
       for d in div:
         value = str(d.string).strip()
-        print value
-
 
     return value
 
