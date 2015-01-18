@@ -1,8 +1,9 @@
 #!/usr/bin/python
 import sys, os, urllib2, json, urllib, requests
+from bs4 import BeautifulSoup
 
 # Read file and return cropped file, or random sample.
-def process_file(file_path, limit, selector):
+def process_file(file_path, limit, selector, process_only):
     # Total number lines
     f = open(file_path, 'r')
     lines = f.readlines()
@@ -15,7 +16,7 @@ def process_file(file_path, limit, selector):
         if count < int(limit):
             file_name = "file_" + str(count) + '.html'
             url = line
-            processURL(url, file_name, selector)
+            processURL(url, file_name, selector,process_only)
             count = count + 1
 
     print "Saved new file with " + str(limit) + " rows at: "
@@ -40,31 +41,80 @@ def file_len(fname):
     return i + 1
 
 
-def processURL(url, file_name, selector):
+def processURL(url, file_name, selector,process_only):
     # Loading URL.
     print "Loading " + url
     
     r = requests.get(url)
     content = r.content
     
-    storeURLResults(content, file_name, selector)
+
+    storeURLResults(content, file_name, selector,process_only)
 
 
-def storeURLResults(text, file_name, selector):
+def storeURLResults(text, file_name, selector, process_only):
     # Store results from visit to web page.
-    with open("output/" + file_name, "wb") as f:
-        content = limitResultsBySelector(text,selector)
-        f.write(content)
+    if process_only:
+      with open("output/processed/" + file_name, "wb") as write_file:
+          print "Processing data only."
+          with open("output/raw/" + file_name, 'r') as read_file:
+
+            
+            text = read_file.read()
+            
+            content = getFileDetails(text,selector)
+            content = content + limitResultsBySelector(text,selector) 
+            write_file.write(str(content) + "\n")
+    else:
+        with open("output/raw/" + file_name, "wb") as f:
+            f.write(text)
+
+        with open("output/processed/" + file_name, "wb") as f:
+            content = getFileDetails(text,selector)
+            content = content + limitResultsBySelector(text,selector) 
+            f.write(str(content) + "\n")
+
+def getFileDetails(text,selector):
+
+    soup = BeautifulSoup(text)
+
+    # Name
+    result = soup.select(selector[0])
+    output = ''
+    for r in result:
+      div = r.find_all('td')
+      d_count = 0
+      for d in div:
+        value = str(d.string).strip()
+        output = output + value 
+        if d_count < len(div) - 1:
+          output = output + ","
+        d_count = d_count + 1
+      output = output + "\n"
+    return output
+
 
 def limitResultsBySelector(text,selector):
     # Find selector in results.
     # Return results from selector.
 
     #http://www.briancarpio.com/2012/12/02/website-scraping-with-python-and-beautiful-soup/
-    #soup = BeautifulSoup(urllib2.urlopen('http://www.usamega.com/mega-millions-history.asp?p=1').read())
-    return text
+    soup = BeautifulSoup(text)
+    # Content
+    result = soup.select(selector[1])
+    output = ''    
+    for r in result:
+      div = r.find_all('div')
+      d_count = 0
+      for d in div:
+        value = str(d.string)
+        output = output + value.strip()
+        if d_count < len(div) - 1:
+          output = output + ","
+        d_count = d_count + 1
+      output = output + "\n"
+    return output
 
-    # @TODO write
 
 # Main program. Read system arguments, read file, make output file.
 def main():
@@ -84,11 +134,19 @@ def main():
 
             if len(sys.argv) > 3:
                 selector = str(sys.argv[3])
+                selector = selector.split(',')
             else:
                 print "No selector given"  
                 selector = ''
 
-            url_results = process_file(input_path, limit, selector)
+            if len(sys.argv) > 4:
+                process_only = str(sys.argv[4])
+                if process_only == 'process_only':
+                  process_only = true
+            else:
+                process_only = false
+
+            url_results = process_file(input_path, limit, selector, process_only)
 
         else:
             "File supplied not CSV"
