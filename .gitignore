@@ -5,4 +5,5 @@ datatools/*.csv
 datatools/*/*.csv
 datatools/*/*/*.csv
 datatools/*/intput/*.*
-datatools/*/output/*.*
+datatools/*/output/raw/*.*
+datatools/*/output/processed/*.*
