@@ -20,9 +20,11 @@ def process_file(file_path, limit, selector, process_only):
             line = row.split(',')
 
             file_name = str(line[2]) + "_" + str(line[1])
+            # if os.path.isfile("output/raw/" + file_name + ".html") == False:
             url = line[0]
             csv_object = processURL(url, file_name, selector, process_only)
             csv_object_array.append(csv_object)
+            # print "making " + file_name + " " + str(count)
             count = count + 1
 
     saveCSV(csv_object_array)
@@ -54,7 +56,7 @@ def buildCSV(csv_list):
     attributes = []
 
     # @TODO Group by dataset name
-
+    full_attributes = []
     for record in csv_list:
       keys = record.keys()
       attributes_set = set(attributes)
@@ -120,7 +122,7 @@ def file_len(fname):
 
 def processURL(url, file_name, selector,process_only):
     # Loading URL.
-    # print "Loading " + url
+    print "Loading " + url
 
     results = storeURLResults(url, file_name, selector,process_only)
     output = compressResultsCSV(file_name, results)
@@ -156,7 +158,7 @@ def storeURLResults(url, file_name, selector, process_only):
     # Store results from visit to web page.
     if process_only == True:
       with open("output/processed/" + file_name + ".txt", "wb") as write_file:
-          # print "Processing data only."
+          print "Processing data only."
           with open("output/raw/" + file_name + ".html", 'r') as read_file:
             text = read_file.read()
             content = getFileNameDetails(text,selector)
