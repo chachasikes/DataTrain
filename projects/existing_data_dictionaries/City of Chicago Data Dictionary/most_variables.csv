@@ -1,4 +1,3 @@
-url (http://datadictionary.cityofchicago.org/),id, name, type
 "variable_info.php?variable_id=","15207","AA_SEQ","variable"
 "variable_info.php?variable_id=","15244","AA_SEQ","variable"
 "variable_info.php?variable_id=","15363","AA_SEQ","variable"
@@ -3185,7 +3184,7 @@ url (http://datadictionary.cityofchicago.org/),id, name, type
 "table_info.php?table_id=","2736","SECRET_QUESTION","table"
 "variable_info.php?variable_id=","16158","SEL_ORGS","variable"
 "variable_info.php?variable_id=","20454","Send building announcements for HWLC","variable"
-"variable_info.php?variable_id=","20463","Send payment contracts with SS#, address, name, and amount to Foundation for paymentvariable)<br />
+"variable_info.php?variable_id=","20463","Send payment contracts with SS#"
 "variable_info.php?variable_id=","20455","Send staffwide email","variable"
 "variable_info.php?variable_id=","20451","Send to Cal info and Marketing dept. before first of prior month","variable"
 "variable_info.php?variable_id=","20563","SENDDATE","variable"
