@@ -7,3 +7,4 @@ datatools/*/*/*.csv
 datatools/*/intput/*.*
 datatools/*/output/raw/*.*
 datatools/*/output/processed/*.*
+notes/blog
