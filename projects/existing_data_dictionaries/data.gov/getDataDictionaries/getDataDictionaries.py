@@ -52,8 +52,8 @@ def process_file(file_list):
             data_urls = []
             for resource in resources:
                 resource_formats_array.append(resource['format'].encode('utf-8'))
-                data_urls.append(resource['url'])
-            csv_data.append([data['id'],data['title'], data['data_dictionary'], data['notes'], tag_array, data['metadata_created'], data['metadata_modified'],data['maintainer'],data['state'],resource_formats_array])
+                data_urls.append(resource['url'].encode('utf-8'))
+            csv_data.append([data['id'],data['title'], data['data_dictionary'], data['notes'], tag_array, data['metadata_created'], data['metadata_modified'],data['maintainer'],data['state'],resource_formats_array, data_urls])
 
     
     
