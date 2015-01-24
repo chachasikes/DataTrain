@@ -8,3 +8,4 @@ datatools/*/intput/*.*
 datatools/*/output/raw/*.*
 datatools/*/output/processed/*.*
 notes/blog
+projects/local_data_dictionaries
