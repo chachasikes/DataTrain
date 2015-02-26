@@ -1,0 +1,151 @@
+1/18/2015
+
+Downloaded most data fields from the Chicago Data Dictionary. 
+
+
+
+
+
+### Some details about the sample data from the data dictionary
+* We could eventually get a sql dump of the database but this is good enough for exploratory research (all field containing the letter "a" from the search of the interface.)
+
+* There are 292 data tables
+* 3300+ fields 
+* 80 have Examples, the rest do not
+* These datasets seem to have little to do with the data in the City of Chicago Open Data Portal: https://data.cityofchicago.org
+* The top datasets for Chicago have relatively simple and mostly self-explanatory fields.
+
+
+* Datasets to look at
+Overall a sample of about 30 Chicago data portal data sets have relatively self explanatory fields and decent coverage of extra information. The attributes tables are not available.
+
+Conclusion: 
+The more complicated data may exist in embedded systems that are not in the data portal - the value of a data field and attribute catalog would be in aggregate, across cities - to understand what's possible.
+
+
+
+
+Food Inspections - has some code violations and ratings that are not explained. https://data.cityofchicago.org/Health-Human-Services/Food-Inspections/4ijn-s7e5
+
+City-Owned Land Inventory - has some classifications that need attribute table
+https://data.cityofchicago.org/Community-Economic-Development/City-Owned-Land-Inventory/aksk-kvfp
+
+What is stumping?
+https://data.cityofchicago.org/Administration-Finance/Performance-Metrics-Chicago-Park-District-Natural-/cnj6-r3qn
+
+LEvel of detail
+https://data.cityofchicago.org/Administration-Finance/Budget-2015-Budget-Ordinance-Appropriations/qnek-cfpp
+
+procurement type
+https://data.cityofchicago.org/Administration-Finance/Contracts/rsxa-ify5
+
+good example of complicated sensor data
+https://data.cityofchicago.org/Parks-Recreation/Beach-Water-Quality-Automated-Sensors/qmqz-2xku
+
+what is voucher number?
+https://data.cityofchicago.org/Administration-Finance/Payments/s4vu-giwb
+
+
+violations
+https://data.cityofchicago.org/Buildings/Building-Violations/22u3-xenr
+
+
+
+
+* Most fields
+BU25T1_EMPLOYEES        148
+BU50T1_DT_CONTRACTS     50
+BU25T1_INPROCESS        45
+APPLICATION             43
+EPI_PERSON.DBA          43
+BU50T1_PROJECTS         42
+DHS_PROGRAM_INFORMATION 39
+Adult Services Programs 36
+BU25T1_AMEND_DELG       32
+BU25T1_AMENDMENTS       32
+BU25T1_APPR             30
+STATEMENT               30
+BU25T1_EQUIP_AMTS       29
+
+
+* Most common field names (1427 distinct)
+CREATED_BY            202
+DATE_CREATED          162
+DATE_MODIFIED         156
+VALID                 112
+MODIFIED_BY           81
+ID                    61
+CREATION_DATE         41
+LAST_MODIFIED_BY      30
+LAST_MODIFIED_DATE    30
+VERSION               28
+FUND_CODE             23
+DEPT_REF_CODE         15
+ORG                   15
+AA_SEQ                14
+NAME                  14
+PGM_SEQ               14
+BARG_UNIT             13
+CREATEDBY             12
+CREATEDDATE           12
+MODIFIEDDATE          12
+PGM_SFX               11
+APPLICATION           10
+MODIFIEDBY            10
+APPR_COL              9
+APPR_SEQ              8
+BUDGUNIT              8
+
+* Most common descriptions (1373 distinct)
+NULL                                      536
+Primary key                               106
+Created by Userid                         88
+Creation date                             85
+Last update date                          81
+Last updated by                           81
+Date created                              52
+Created by userid                         45
+Valid? 1 - yes                            45
+Date Modified                             40
+not used                                  39
+compound foreign key to bu50t1_codes      28
+The CDGA webapp will increment this column by 1 every time that a given record is updated   28
+4 char fund code                          27
+Valid(Y/N)                                26
+
+
+* Most common formats (21 distinct)
+VARCHAR2                        1405
+NUMBER9                         34
+DATE5                           26
+Text                            59
+TEXT                            46
+TIMESTAMP(6)                    38
+Number                          37
+CLOB                            24
+drop-down menu                  18
+Date                            15
+Yes/No                          13
+Date/Time                       11
+text box                        11
+BLOB                            4
+
+* Comments
+Mostly null, only 11
+
+* Field Length
+max: 4000  
+min: 1 
+most common: 22
+
+* Values ???
+NULL2535
+sysdate107
+NOT NULL105
+1=Yes94
+Y60
+N55
+045
+
+
+
